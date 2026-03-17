@@ -1,13 +1,15 @@
 ﻿Console.WriteLine("Hello, World!");
 
-string napis = Console.ReadLine();
-if (napis is not null) {
-    Console.WriteLine(napis);
+string val = Console.ReadLine();
+if (val is not null) {
+    Console.WriteLine(val);
 }
 else
 {
     Console.WriteLine("Uzytkownik nic nie wpisal");
 }
+
+Console.WriteLine("Zostal commit z galezi feature-conflict");
 
 static double CalculateAverage(int[] values)
 {
