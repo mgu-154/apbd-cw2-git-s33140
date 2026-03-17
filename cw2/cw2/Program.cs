@@ -9,4 +9,8 @@ else
     Console.WriteLine("Uzytkownik nic nie wpisal");
 }
 
-
+static double CalculateAverage(int[] values)
+{
+    double average = values.Average();
+    return average;
+}
