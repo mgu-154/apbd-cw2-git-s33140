@@ -24,5 +24,5 @@ static double CalculateMax(int[] values)
 static double CalculateMin(int[] values)
 {
     double min = values.Min();
-    return min;
+    return min * 10;
 }
