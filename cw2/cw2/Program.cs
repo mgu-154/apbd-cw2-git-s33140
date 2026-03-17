@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("Hello, World!");
 
-string text = Console.ReadLine();
-if (text is not null) {
-    Console.WriteLine(text);
+string val = Console.ReadLine();
+if (val is not null) {
+    Console.WriteLine(val);
 }
 else
 {
