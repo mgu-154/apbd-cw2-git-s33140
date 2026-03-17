@@ -20,3 +20,9 @@ static double CalculateMax(int[] values)
     double max = values.Max();
     return max;
 }
+
+static double CalculateMin(int[] values)
+{
+    double min = values.Min();
+    return min;
+}
