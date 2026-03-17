@@ -1,5 +1,6 @@
 ﻿Console.WriteLine("Hello, World!");
 
 string text = Console.ReadLine();
-
-Console.WriteLine(text);
+if (text is not null) {
+    Console.WriteLine(text);
+}
